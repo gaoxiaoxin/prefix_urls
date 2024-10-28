@@ -1,0 +1,54 @@
+body {
+  width: 360px;
+}
+.popup_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.popup_content .prefix_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.popup_content .prefix_list .prefix_item {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup_content .prefix_list .prefix_item .checkout {
+  width: 20px;
+  height: 20px;
+}
+.popup_content .prefix_list .prefix_item #prefix {
+  flex: 1;
+  max-height: 36px;
+  line-height: 24px;
+}
+.popup_content .prefix_list .prefix_item button {
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.popup_content .prefix_list .prefix_item button:hover {
+  background-color: #e6e6e6;
+}
+.popup_content .add_button {
+  width: 100%;
+}
+.popup_content .add_button button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #597ef7;
+}
+.popup_content .add_button button:hover {
+  background-color: #2f54eb;
+}
